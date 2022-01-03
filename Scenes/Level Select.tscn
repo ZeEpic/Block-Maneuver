@@ -1,0 +1,86 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Godot Resources/label.tres" type="DynamicFont" id=1]
+[ext_resource path="res://Scripts/Level Select.gd" type="Script" id=2]
+
+[node name="Level Select" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="UI" type="CanvasLayer" parent="."]
+
+[node name="Options" type="Control" parent="UI"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_lock_": true,
+"_edit_use_anchors_": false
+}
+
+[node name="VBox" type="VBoxContainer" parent="UI/Options"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = 40.0
+margin_top = 40.0
+margin_right = -40.0
+margin_bottom = -60.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Levelset1" type="HBoxContainer" parent="UI/Options/VBox"]
+margin_right = 944.0
+margin_bottom = 80.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Levelset2" type="HBoxContainer" parent="UI/Options/VBox"]
+margin_top = 84.0
+margin_right = 944.0
+margin_bottom = 164.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Levelset3" type="HBoxContainer" parent="UI/Options/VBox"]
+margin_top = 168.0
+margin_right = 944.0
+margin_bottom = 248.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Levelset4" type="HBoxContainer" parent="UI/Options/VBox"]
+margin_top = 252.0
+margin_right = 944.0
+margin_bottom = 332.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Levelset5" type="HBoxContainer" parent="UI/Options/VBox"]
+margin_top = 336.0
+margin_right = 944.0
+margin_bottom = 416.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Levelset6" type="HBoxContainer" parent="UI/Options/VBox"]
+margin_top = 420.0
+margin_right = 944.0
+margin_bottom = 500.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+
+[node name="Level Maker" type="Button" parent="UI/Options"]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -128.0
+margin_top = -50.0
+margin_right = -19.0
+margin_bottom = -10.0
+custom_fonts/font = ExtResource( 1 )
+text = "Level Maker"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="pressed" from="UI/Options/Level Maker" to="." method="_on_Level_Maker_pressed"]

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/mine_dirt.wav-e03dc8d0ec3e9a5eafd04f89bea89641.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/Effects/mine_dirt.wav"
+dest_files=[ "res://.import/mine_dirt.wav-e03dc8d0ec3e9a5eafd04f89bea89641.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

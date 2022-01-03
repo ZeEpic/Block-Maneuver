@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/stone_block_move.wav-e08abf5717c8bc6b09f3cb2ea5b7e875.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/Effects/stone_block_move.wav"
+dest_files=[ "res://.import/stone_block_move.wav-e08abf5717c8bc6b09f3cb2ea5b7e875.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

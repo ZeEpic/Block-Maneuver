@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/spark2.wav-b54a4253bad8b2f4c9b82c89708793b5.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/Effects/spark2.wav"
+dest_files=[ "res://.import/spark2.wav-b54a4253bad8b2f4c9b82c89708793b5.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

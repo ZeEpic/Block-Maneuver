@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/stone_turn.wav-a1785349e1a45dc624891f32cc397e41.sample"
+
+[deps]
+
+source_file="res://Assets/Sound/Effects/stone_turn.wav"
+dest_files=[ "res://.import/stone_turn.wav-a1785349e1a45dc624891f32cc397e41.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
